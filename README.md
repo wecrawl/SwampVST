@@ -3,7 +3,9 @@
 ## About
 The SwampVST is intended to be used as a compositional tool within a DAW. The name stemmed from the idea of combining various oscillators (additive synthesis) to sonically craft a swamp of noise. The SwampVST aims to enable present people with a simple, minimalistic workspace to produce audio with, whether it be for music production or sound designing. 
 
+
 ![swampVST](Resources/swampVST.png)
+
 
 ## How It Works
 The VST was written in C++ using Projucer. In order for this project to run, you will need to open it as a stand alone VST. 
