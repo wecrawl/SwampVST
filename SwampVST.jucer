@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT name="SwampVST" projectType="audioplug" buildStandalone="1" jucerVersion="5.2.1"
+              pluginIsSynth="1">
+  <MAINGROUP id="GexEHa" name="SwampVST">
+    <GROUP id="{EAAEB8E7-4CAB-BF3D-86BA-FDBAD77954CA}" name="Source">
+      <FILE id="GwvasY" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="Xtd4N0" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="YltGmT" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="BiKQG4" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../../../Users/kayshabowler/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../Users/kayshabowler/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../Users/kayshabowler/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../Users/kayshabowler/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../Users/kayshabowler/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../Users/kayshabowler/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../../../Users/kayshabowler/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../../../../../Users/kayshabowler/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../../Users/kayshabowler/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../Users/kayshabowler/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../Users/kayshabowler/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../Users/kayshabowler/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../Users/kayshabowler/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../../Users/kayshabowler/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../Users/kayshabowler/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../../../Users/kayshabowler/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
