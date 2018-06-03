@@ -1,7 +1,7 @@
 # SwampVST
 
 ## About
-The SwampVST is intended to be used as a compositional tool within a DAW. The name stemmed from the idea of combining various oscillators (additive synthesis) to sonically craft a swamp of noise. The SwampVST aims to enable present people with a simple, minimalistic workspace to produce audio with, whether it be for music production or sound designing. 
+The SwampVST is intended to be used as a compositional tool within a DAW. The name stemmed from the idea of combining various oscillators (additive synthesis) to sonically craft a swamp of noise. The SwampVST aims to present people with a simple, minimalistic palette to craft audio with, whether it be for music production or sound designing. 
 
 
 ![swampVST](Resources/swampVST.png)
